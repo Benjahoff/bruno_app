@@ -1,0 +1,7 @@
+{
+  "name": "goodvibes",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

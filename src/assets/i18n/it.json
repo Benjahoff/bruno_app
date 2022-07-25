@@ -1,0 +1,98 @@
+{
+    "home": {
+        "check": "Verifica e invia",
+        "result": "Mostra i risultati",
+        "scan": "Scatta una foto",
+        "button": "COMINCIAMO!"
+
+    },
+    "info": {
+        "button": "OK",
+        "text": "Mandaci la lista degli ingredienti del prodotto.",
+        "text1": "Tieni a portata di mano il prodotto che desideri fotografare.",
+        "text2": "Fotografa gli ingredienti del prodotto.",
+        "text3": "Assicurati che l'immagine sia corretta e inviacela!"
+    },
+    "choice": {
+        "text": "Seleziona la categoria del tuo prodotto.",
+        "food": "Alimenti",
+        "bpc": "Cura della persona",
+        "home": "Prodotti per la casa",
+        "kids" : "Kids",
+        "pets" : "Pets",
+        "higiene" : "Higiene",
+        "ingredients" : "Ingredients",
+        "button":"Discover healthy products"
+    },
+    "consult": {
+        "consults": "Le mie richieste",
+        "consult": "Richieste",
+        "empty": "Non ci sono richieste",
+        "date": "Data",
+        "image": "Immagine",
+        "textmaching": "Testo"
+    },
+    "send": {
+        "title": "Inviaci le informazioni del tuo prodotto",
+        "name": "Nome",
+        "product": "Prodotto",
+        "mail": "Email",
+        "message": "Messaggio",
+        "button": "Invia",
+        "datos": "Completa i resultati",
+        "text1": "Abbiamo ricevuto il tuo messaggio.",
+        "text2": "Ti risponderemo il prima possibile."
+    },
+    "scan": {
+        "repeat": "Prova di nuovo",
+        "take": "Scatta foto",
+        "send": "Invia",
+        "text": "Fotografa la lista degli ingredienti del prodotto.",
+        "question": "Sei sicuro di voler inviare questa foto?",
+        "upload": "Sube foto"
+    },
+    "result": {
+        "button": "OK",
+        "text": "Abbiamo trovato...",
+        "ingredient": "Ingredienti",
+        "score": "confidenti di aver riconosciuto correttamente questo ingrediente",
+        "not-text": "Non abbiamo trovato ingredienti potenzialmente pericolosi.",
+        "not-info": "Per darti la certezza che il prodotto non contiene nessun ingrediente pericoloso, mandaci più informazioni.",
+        "name": "Nome",
+        "last-name": "Cognome",
+        "mail": "Mail",
+        "buy": "Compra al mejor precio",
+        "comment": "Lasciaci il tuo Feedback!"
+    },
+    "lang": {
+        "es": "Español",
+        "en": "English",
+        "pt": "Português",
+        "it": "Italiano"
+    },
+    "history": {
+        "matching": "corrispondente",
+        "ingredient": "Ingrediente",
+        "report": "Report",
+        "reference": "Riferimento"
+    },
+    "feedback": {
+        "cancel": "annulla",
+        "confirm": "Cominciamo!",
+        "text1": "La tua fiducia è molto importante per noi!",
+        "text2": "Aiutaci a migliorare",
+        "text3": "Grazie!",
+        "linkFeedback": "https://479umigyc0j.typeform.com/to/dWUE0OzT"
+    },
+    "check" : {
+        "title": "Como te sentirias si no pudieras usar más la app de GoddVibes?",
+        "answer1": "Muy desepcionado",
+        "answer2": "Desepcionado",
+        "answer3": "Nada desepcionado",
+        "answer4": "Contestar mas tarde"
+    },
+    "search" : {
+        "title" : "Buscar ingredientes",
+        "button" : "Search"
+    }
+}

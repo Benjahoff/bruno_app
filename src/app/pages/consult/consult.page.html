@@ -1,0 +1,64 @@
+<ion-content color="">
+  <img class="position-absolute div__background-wavetop" src="../../../assets/icon/infoWaveTop.png" alt="">
+  <div class="position-absolute container contenedorModalTop">
+      <div class="row mt-4">
+          <div class="col-2 my-auto text-center">
+              <img class=" div_closebutton" (click)="returnHome()" src="../../../assets/icon/close.png" alt="">
+          </div>
+          <div class="col-8 goodvibes-btn-home my-auto text-center text-white goodvibes-text-info2">
+              <p class="my-auto closeSectionText">{{ 'consult.consult' | translate }} </p>              
+          </div>
+          <div class="col-2"></div>
+      </div>
+  </div>
+  <div class="container centrar-vertical listaHeight mt-4">
+    <div class="row mt-5 stepText mt-5" *ngIf="isLoading">
+      <ion-spinner name="lines"></ion-spinner>
+    </div>      
+    <div class="row mt-5 stepText mt-5" *ngIf="!isLoading">
+      <div class="d-grid gap-2 mt-5">
+        <button class="btn btn-outline-dark">{{'consult.date' | translate}} {{myConsult['fecha'] | date: 'dd/MM/y HH:mm:ss'}} # {{myConsult['id']}}</button>
+        <button class="btn btn-outline-dark" (click)="collapseIng()" [attr.aria-expanded]="isCollapseding" aria-controls="collapseBasic">{{'result.ingredient' | translate}}</button>
+        <app-expandable expandHeight="100%" [expanded]="isCollapseding">              
+          <div class="d-grid gap-2 mt-1" *ngFor="let item of ingredientes">
+            <div class="row">
+              <div class="col-10">
+                <button class="btn btn-sm" [ngStyle]="{'color': item['color_ingrediente']}" (click)="item['collapse'] = !item['collapse']" 
+                        [attr.aria-expanded]="!item['collapse']" aria-controls="collapseBasic" *ngIf="item['sinonimo']!=''">{{item['sinonimo']}}
+                </button>                
+              </div>
+              <div class="col-2">
+                <div [ngStyle]="{'background-color': item['color']}" class="text-center riesgo">!</div>
+              </div>
+            </div>
+            <app-expandable expandHeight="100%" [expanded]="!item['collapse']"  *ngIf="item['sinonimo']!=''">                  
+              <div class="well well-lg card card-block card-header">
+                <small [ngStyle]="{'color': item['color_reporte']}">{{'history.matching' | translate}}: {{item['reconocimiento']}}%</small>                                                  
+                <small [ngStyle]="{'color': item['color_reporte']}">{{'history.ingredient' | translate}}: {{item['nombre']}}</small>
+                <small [ngStyle]="{'color': item['color_reporte']}"><strong>{{'history.report' | translate}}:</strong></small>
+                <small [ngStyle]="{'color': item['color_reporte']}">{{item['reporte']}}</small>
+                <small [ngStyle]="{'color': item['color_reporte']}"><strong>{{'history.reference' | translate}}:</strong></small>
+                <small [ngStyle]="{'color': item['color_reporte']}">{{item['referencia']}}</small>                
+              </div>                
+            </app-expandable>                    
+          </div>      
+        </app-expandable>
+        <button class="btn btn-outline-dark" (click)="collapseImg()"
+                [attr.aria-expanded]="isCollapsedimg" aria-controls="collapseBasic">{{'consult.image' | translate}}
+        </button>                    
+        <app-expandable expandHeight="100%" [expanded]="isCollapsedimg">
+          <img class=" div_closebutton" src="{{ruta}}{{myConsult['image_url']}}" alt="">
+        </app-expandable>
+        <button class="btn btn-outline-dark" (click)="collapseTex()"
+                [attr.aria-expanded]="isCollapsedtex" aria-controls="collapseBasic">{{'consult.textmaching' | translate}}
+        </button>                    
+        <app-expandable expandHeight="100%" [expanded]="isCollapsedtex">
+          <p>{{myConsult['texto']}}</p>
+        </app-expandable>
+        <button class="btn btn-outline-dark" (click)="downloadPDF(myConsult['id'])">PDF</button>
+      </div>          
+    </div>
+  </div> 
+   
+</ion-content>
+

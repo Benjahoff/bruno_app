@@ -1,0 +1,49 @@
+<ion-content class="overflowHidden" color="white">
+    <div *ngIf="!isLoading">
+
+        <section *ngIf="cameraActive">
+            <div class="position-absolute contenedorModalTop">
+                <img class="div__background-wavetop contenedorModalTop" src="../../../assets/icon/infoWaveTop.png" alt="">
+            </div>
+            <div class="position-absolute container contenedorModalTop">
+                <div class="row mt-4">
+                    <div class="col-2 my-auto text-center">
+                        <img class=" div_closebutton" (click)="returnHome()" src="../../../assets/icon/close.png" alt="">
+                    </div>
+                    <div class="col-8 goodvibes-btn-home my-auto text-center goodvibes-text-info2">
+                        <p class="my-auto closeSectionText">{{'scan.text' | translate | uppercase}}</p>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+            </div>
+        </section>
+
+        <ion-img [src]="image" *ngIf="image && !cameraActive &&  ingredientsList === null"></ion-img>
+        <div class="position-absolute contenedorModalBottom" *ngIf="ingredientsList === null">
+            <img class="div__background-wavebottom" src="../../../assets/icon/infoWaveBottom.png" alt="">
+        </div>
+        <div class="contenedorBoton" *ngIf="cameraActive &&  ingredientsList === null">
+            <img class="btnPhoto" src="../../../assets/IMG-3050.jpg" alt="">
+            <app-button class="btnBottomSendPhoto"  [btnText]="'scan.take' | translate" (emitClick)="addPhotoToGallery()"></app-button>
+            <app-button class="btnBottomUploadPhoto" [btnText]="'scan.upload' | translate" (emitClick)="selectToGallery()"></app-button>
+        </div>
+
+        <div class="contenedorBoton" *ngIf="image && !cameraActive &&  ingredientsList === null">
+            <div class="col-12 goodvibes-text-info2 divTextoFoto my-auto text-center mt-3 mb-4">
+                <p class="my-auto closeSectionTextPhoto">{{'scan.question' | translate}}</p>
+            </div>
+            <div class="row">
+                <div class="col-6 text-center">
+                    <app-button class="tryAgainButton" [btnText]="'scan.repeat' | translate" (emitClick)="tekeAgain()"></app-button>
+                </div>
+                <div class="col-6 text-center">
+                    <app-button class="btnBottomUploadPhoto" [btnText]="'scan.send' | translate" [loading]="isLoading" (emitClick)="sendPhoto()"></app-button>
+                </div>
+
+            </div>
+        </div>
+
+        <app-list *ngIf="ingredientsList !== null && !isLoading" [ingredientsList]="ingredientsList" (pdfButtonEvent)="downloadFile()" (listButtonEvent)="returnChoice()"></app-list>
+    </div>
+    <app-wait *ngIf="isLoading"></app-wait>
+</ion-content>

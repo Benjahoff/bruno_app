@@ -1,0 +1,20 @@
+<div class="languaje">
+    <div class="languaje-container" (click)="expandItem()">
+        <div class="row">
+            <div class="col-12 text-center">
+                <img class="languaje-flag" src="../../../assets/languages/{{sigla}}.png" alt="">
+            </div>
+            <!-- <div class="col-3">
+                <div *ngIf="!expand">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+                <div *ngIf="expand">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+            </div> -->
+        </div>
+        <app-expandable [expanded]="expand">
+            <p class="languaje-info mt-2" *ngFor="let item of items" (click)="selectItem(item)">{{item.languaje}}</p>
+        </app-expandable>
+    </div>
+</div>

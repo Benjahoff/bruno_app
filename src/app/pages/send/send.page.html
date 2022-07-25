@@ -1,0 +1,63 @@
+<ion-content color="bblue">
+    <img class="position-absolute div__background-wavetop" src="../../../assets/icon/infoWaveTop.png" alt="">
+    <div class="position-absolute container contenedorModalTop">
+        <div class="row mt-4">
+            <div class="col-2 my-auto text-center">
+                <img class=" div_closebutton" (click)="returnHome()" src="../../../assets/icon/close.png" alt="">
+            </div>
+            <div class="col-8 goodvibes-btn-home my-auto text-center goodvibes-text-info2">
+                <p class="my-auto closeSectionText">{{ 'send.title' | translate }}</p>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </div>
+
+    <div class="container centrar-vertical">
+        <div class="row mt-5 " *ngIf="!enviado">
+            <form class="form-floating mb-3 needs-validation">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="floatingInput" placeholder="'send.name' | translate " [ngClass]="{'is-invalid': nombre == ''}" name="message" [(ngModel)]='nombre' (keyup)="validarForm()">
+                    <label for="floatingInput">*{{'send.name' | translate }}</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="'send.product' | translate " [ngClass]="{'is-invalid': product == ''}" name="message" [(ngModel)]='product' (keyup)="validarForm()">
+                    <label for="floatingInput">*{{'send.product' | translate }}</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="'send.mail' | translate " [ngClass]="{'is-invalid': mail.indexOf('@') < 1 || mail.indexOf('.') < 1}" name="message" [(ngModel)]='mail' (keyup)="validarForm()">
+                    <label for="floatingInput">*{{'send.mail' | translate }}</label>
+                </div>
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="floatingPassword" placeholder="'send.message' | translate" [ngClass]="{'is-invalid': message == ''}" name="message" [(ngModel)]='message' (keyup)="validarForm()">
+                    <label for="floatingPassword">*{{'send.message' | translate }}</label>
+                </div>
+                <div *ngIf="validacion" class="alert alert-warning mt-2" role="alert">
+                    {{'send.datos' | translate}}
+                </div>
+            </form>
+        </div>
+        <div class="row mt-5 text-center" *ngIf="enviado">
+            <div class="col-12 my-auto text-center">
+                <img class="div_alertbutton" src="../../../assets/icon/warning.png" alt="">
+            </div>
+            <div class="col-12 goodvibes-btn-home mt-3 my-auto text-center goodvibes-text-info2">
+                <p class="my-auto closeSectionText">{{ nombre | titlecase }}</p>
+            </div>
+            <div class="col-12 goodvibes-btn-home mt-3 my-auto text-center goodvibes-text-info2">
+                <p class="my-auto closeSectionText">{{ 'send.text1' | translate }}</p>
+            </div>
+            <div class="col-12 goodvibes-btn-home my-auto text-center goodvibes-text-info2">
+                <p class="my-auto closeSectionText">{{ 'send.text2' | translate }}</p>
+            </div>
+            <div class="d-flex justify-content-center mt-3">
+                <div class="col-12 spinner-grow text-info my-auto text-center" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container btnBottomSendPhoto" *ngIf="!enviado && !validacion">
+        <app-button class="" [btnText]="'send.button' | translate" [primary]="true" [loading]="isLoading" (emitClick)="sendMessage()"></app-button>
+    </div>
+    <img class="position-absolute div__background-wavebottom " src="../../../assets/icon/infoWaveBottom.png " alt=" ">
+</ion-content>

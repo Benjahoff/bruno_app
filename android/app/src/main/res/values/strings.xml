@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">goodvibes</string>
+    <string name="title_activity_main">goodvibes</string>
+    <string name="package_name">io.goodvibes.worksi</string>
+    <string name="custom_url_scheme">io.goodvibes.worksi</string>
+</resources>

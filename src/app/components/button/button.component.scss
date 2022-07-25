@@ -1,0 +1,37 @@
+/* Container holding the image and the text */
+
+* {
+  z-index: 12;
+}
+
+.containerImageText {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.containerImageText > img {
+    width: 130px;
+}
+.puntero {
+  cursor: pointer;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  font-size: 1.0em;
+}
+
+.textOutline {
+  color: #a94541;
+}
+
+@media only screen and (min-width: 300px) {
+  .centered {
+    font-size: 0.8em;
+  }
+}

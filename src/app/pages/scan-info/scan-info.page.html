@@ -1,0 +1,45 @@
+<ion-content color="light">
+    <img class="position-absolute div__background-wavetop" src="../../../assets/v1.1/FONDOS/Fondo titulo.png" alt="">
+    <div class="position-absolute container contenedorModalTop">
+        <div class="row mt-4">
+            <div class="col  my-auto text-center">
+                <img class="div_closebutton" (click)="returnHome()" src="../../../assets/v1.1/BOTONES/Atras.png" alt="">
+            </div>
+            <div class="col-8 goodvibes-btn-home my-auto text-center ">
+                <h3 class="my-auto closeSectionText txt-white">{{'choice.text' | translate}}</h3>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+
+    <div class="container centrar-vertical "  style="height: 100vh;">
+        <div class="row stepText">
+            <div class="col-12  justify-content-center text-center">
+                <div>
+                    <img class="img-fluid icon" width="100" src="../../../assets/Categorias/Alimentos.png" alt="Food" (click)="btnChoice('6')">
+                    <h5 class="text-blue">{{'choice.food' | translate}}</h5>
+                </div>
+            </div>
+            <div class="col-12 mt-2 justify-content-center text-center">
+                <div>
+                    <img class="img-fluid icon" width="100" src="../../../assets/Categorias/Higiene.png" alt="">
+                    <h5 class="text-blue">{{'choice.higiene' | translate}}</h5>
+                </div>
+            </div>
+        </div>
+        <div class="position-absolute contenedorModalBottom" >
+            <img class="div__background-wavebottom" src="../../../assets/icon/infoWaveBottom.png" alt="">
+        </div>
+    </div>
+
+
+
+
+
+<!--     <img class="position-absolute div__background-wavebottom" src="../../../assets/icon/infoWaveBottom.png" alt="">
+ -->
+
+
+
+
+</ion-content>

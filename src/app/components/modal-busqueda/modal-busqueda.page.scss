@@ -1,0 +1,74 @@
+.card-search{
+    width: 80%;
+    height: 30%;
+    filter: drop-shadow(-2px 2px 15px rgb(138, 148, 148));
+}
+.card-extended{
+    height: 60%;
+}
+.div_closebutton {
+    width: 25px;
+    z-index: 999;
+    float: right;
+    margin-right: 20px;
+}
+
+.text-ingredients{
+    margin-right: 2px;
+}
+
+.text-blue {
+    color: #a94541;
+}
+
+.border-rounded{
+    border-radius:10px;
+    filter: drop-shadow(-2px 2px 15px rgba(138, 148, 148, 0.555));
+    height: 45px;
+}
+
+.container-btn{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.img-zoom{
+    width: 205px !important;
+}
+
+.text-btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.9em;
+}
+//se
+@media screen and ( min-height: 660px ) {
+    .card-extended{
+        height: 75%;
+    }
+    .card-search{
+        height: 40%;
+    }
+}
+//s8
+@media screen and ( min-height: 739px ) {
+    .card-extended{
+        height: 66%;
+    }
+}
+//xr 12pro pixel
+@media screen and ( min-height: 844px ) {
+    .card-search{
+        height: 35%;
+    }
+    .card-extended{
+        height: 57%;
+    }
+}
+//s20 Ultra
+@media screen and ( min-height: 910px ) {
+   
+}

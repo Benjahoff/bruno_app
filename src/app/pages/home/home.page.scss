@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.goodvibes-text-home {
+    color: #a94541;
+    font-size: 0.4em;
+}
+
+.goodvibes-text-info {
+    color: #a94541;
+    font-size: 1.8em;
+}
+
+.alert-class
+{
+    --background: #a94541 !important;  
+}
+    
+.alert-ok{
+    color: #a94541 !important;
+}
+
+.div__width-logo {
+    width: 12em;
+}
+
+.container-btn{
+    position: relative;
+    text-align: center;
+}
+
+.btn-home{
+    width: 40% !important;
+}
+.text-btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.centrar-vertical {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div__background {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position-x: center;
+    background-image: url('../../../assets/fondoInicio.png');
+}
+
+.div__background-wave {
+    height: 100vh;
+    width: 100%;
+}
+
+.img__width-icon {
+    min-width: 40px;
+    width: 50px;
+}
+
+.container-elements {
+    z-index: 2;
+}
+
+@media only screen and (min-width: 300px) {
+    .goodvibes-text-home {
+        font-size: 0.3em;
+    }
+}

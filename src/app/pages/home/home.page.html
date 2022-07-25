@@ -1,0 +1,41 @@
+<ion-content color="bprimary">
+
+    <!-- <div class="position-absolute ">
+    </div> -->
+    <!--  <img class="div__background-wave position-absolute" src="../../../assets/images/ola.png" alt="" srcset=""> -->
+
+    <div class="container div__background">
+        <div class="centrar-vertical" style="height: 100vh;">
+            <app-language></app-language>
+            <div class=" container-elements">
+                <div class="row ">
+                    <div class="col-12 text-center">
+                        <img src="../../../assets/Pantalla Inicio/Logo Bruno.png" alt="" class="div__width-logo">
+                    </div>
+                    <div class="col-12 mt-4">
+                        <div class="row px-4 justify-content-center">
+                            <div class="col-3 text-center goodvibes-text-info">
+                                <img class="img__width-icon" src="../../../assets/Pantalla Inicio/Selecciona una categoria.png" alt="">
+                                <p class="mt-2 goodvibes-text-home">{{'home.check' | translate | uppercase }}</p>
+                            </div>
+                            <div class="col-3 text-center goodvibes-text-info">
+                                <img class="img__width-icon" src="../../../assets/Pantalla Inicio/Hacer una foto.png" alt="">
+                                <p class="mt-2 goodvibes-text-home">{{'home.scan' | translate | uppercase}}</p>
+                            </div>
+                            <div class="col-3 text-center goodvibes-text-info">
+                                <img class="img__width-icon" src="../../../assets/Pantalla Inicio/Conoce los ingredientes.png" alt="">
+                                <p class="mt-2 goodvibes-text-home">{{'home.result' | translate | uppercase}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 container-btn text-center mt-3">
+                        <img (emitClick)="redirect()" src="../../../assets/Botones/Boton1.png" class="btn-home" >
+                        <div class="text-btn" (click)="redirect()">{{'home.button' | translate}}</div>
+                    </div>
+                    <!-- <span class="badge bg-danger mt-5">Danger</span> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+</ion-content>

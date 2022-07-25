@@ -1,0 +1,10 @@
+<div class="containerImageText puntero" (click)="redirect()">
+    <img *ngIf="primary" src="../../../assets/Botones/Boton1.png">
+    <img *ngIf="!primary" src="../../../assets/Botones/Boton2.png" >
+    <div *ngIf="!loading" class="centered" [ngClass]="{'textOutline': !primary}">{{btnText}}</div>
+    <div *ngIf="loading" class="centered">
+        <div class="spinner-border spinner-border-sm" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+</div>

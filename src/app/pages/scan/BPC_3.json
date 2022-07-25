@@ -1,0 +1,1589 @@
+{
+  "data": {
+    "product": {
+      "name": "Shampoo Natura lumina",
+      "barcode": 3,
+      "date": "07/17/21",
+      "observations": "",
+      "presentation": "",
+      "categories": {
+        "category": [
+          "Cuidado Personal",
+          "Cuidado del Cabello",
+          "Shampoo"
+        ]
+      },
+      "report": {
+        "score": 6.96440388737437,
+        "ingredient_list": {
+          "found": {
+            "ingredient": [
+              "agua",
+              "laureth sulfato de sodio",
+              "Cocamidopropyl betaine",
+              "Phenoxyethanol",
+              "parfum",
+              "lauramine oxide",
+              "sodium chloride",
+              "pentylene glycol",
+              "glycerin",
+              "polyquaternium-6",
+              "sodium hydroxide",
+              "tetrasodium EDTA",
+              "polyquaternium-22",
+              "PEG-4 dilaurate",
+              "triticum vulgare (wheat) bran extract",
+              "PEG-200",
+              "iodopropynyl butylcarbamate",
+              "1,2-hexanediol",
+              "caprylyl glycol",
+              "citric acid",
+              "astrocaryum murumuru seed butter",
+              "bertholletia excelsa seed oil",
+              "triethanolamine",
+              "sr-spider polypeptide-1",
+              "tocopherol",
+              "linalool",
+              "butylphenyl methylpropional",
+              "citronellol",
+              "limonene"
+            ]
+          },
+          "not.found": {
+            "ingredient": ""
+          }
+        },
+        "additives_list": "",
+        "group": [
+          {
+            "score": [
+              {
+                "name": "C&#xE1;ncer",
+                "value": 0.498998426098154,
+                "rating": "BAJO"
+              },
+              {
+                "name": "Alergias y Toxicidad",
+                "value": 6.86344278060172,
+                "rating": "ALTO"
+              },
+              {
+                "name": "Restricciones de uso",
+                "value": 7.15306980656014,
+                "rating": "ALTO"
+              },
+              {
+                "name": "Desarrollo y Reproducci&#xF3;n",
+                "value": 1.75211822660099,
+                "rating": "MEDIO"
+              },
+              {
+                "name": "Impacto Medioambiental",
+                "value": 2.74353448275862,
+                "rating": "MEDIO"
+              },
+              {
+                "name": "Perturbadores Endocrinos",
+                "value": 2.57664445088381,
+                "rating": "MEDIO"
+              }
+            ]
+          },
+          "",
+          ""
+        ]
+      },
+      "ingredients": {
+        "ing": [
+          {
+            "name": "agua",
+            "totalRisk": {
+              "score": 0,
+              "rating": "BAJO"
+            },
+            "ingRisk": {
+              "risk": [
+                {
+                  "name": "Peligro Potencial C&#xE1;ncer",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Alergias y Toxicidad",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Restricciones de uso",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Desarrollo y Reproducci&#xF3;n",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Impacto Medioambiental",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Riesgo Potencial Perturbadores Endocrinos",
+                  "value": 0,
+                  "rating": "BAJO"
+                }
+              ]
+            },
+            "infoToReport": {
+              "pros": "",
+              "cons": "Ingrediente generalmente considerado seguro para su uso en productos de Belleza y Cuidado Personal.",
+              "info": ""
+            },
+            "references": {
+              "reference": "-"
+            }
+          },
+          {
+            "name": "laureth sulfato de sodio",
+            "totalRisk": {
+              "score": 0.684931506849315,
+              "rating": "BAJO"
+            },
+            "ingRisk": {
+              "risk": [
+                {
+                  "name": "Peligro Potencial C&#xE1;ncer",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Alergias y Toxicidad",
+                  "value": 1,
+                  "rating": "MEDIO"
+                },
+                {
+                  "name": "Peligro Potencial Restricciones de uso",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Desarrollo y Reproducci&#xF3;n",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Impacto Medioambiental",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Riesgo Potencial Perturbadores Endocrinos",
+                  "value": 0,
+                  "rating": "BAJO"
+                }
+              ]
+            },
+            "infoToReport": {
+              "pros": "",
+              "cons": "Ingrediente generalmente considerado seguro para su uso en productos de Belleza y Cuidado Personal, en las pr&#xE1;cticas actuales de uso y concentraci&#xF3;n.",
+              "info": ""
+            },
+            "references": {
+              "reference": [
+                "",
+                "European Chemical Agency (ECHA)",
+                "Loffler, H., and Happle, R. (2003). Profile of irritant patch testing with detergents: sodium lauryl sulfate, sodium laureth sulfate and alkyl polyglucoside. Contact Dermatitis, 48(1), 26-32.",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Cocamidopropyl betaine",
+            "totalRisk": {
+              "score": 4.10958904109589,
+              "rating": "MEDIO"
+            },
+            "ingRisk": {
+              "risk": [
+                {
+                  "name": "Peligro Potencial C&#xE1;ncer",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Alergias y Toxicidad",
+                  "value": 3,
+                  "rating": "ALTO"
+                },
+                {
+                  "name": "Peligro Potencial Restricciones de uso",
+                  "value": 2,
+                  "rating": "MEDIO"
+                },
+                {
+                  "name": "Peligro Potencial Desarrollo y Reproducci&#xF3;n",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Impacto Medioambiental",
+                  "value": 1,
+                  "rating": "MEDIO"
+                },
+                {
+                  "name": "Peligro Riesgo Potencial Perturbadores Endocrinos",
+                  "value": 0,
+                  "rating": "BAJO"
+                }
+              ]
+            },
+            "infoToReport": {
+              "pros": "",
+              "cons": "Ingrediente clasificado como sustancia peligrosa por su efecto irritante.",
+              "info": ""
+            },
+            "references": {
+              "reference": [
+                "",
+                "Burnett, C. L., Bergfeld, W. F., Belsito, D. V., Hill, R. A., Klaassen, C. D., Liebler, D., Andersen, F. A. (2012). International Journal of Toxicology, 31(4). doi: 10.1177/1091581812447202",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "Phenoxyethanol",
+            "totalRisk": {
+              "score": 1.36986301369863,
+              "rating": "BAJO"
+            },
+            "ingRisk": {
+              "risk": [
+                {
+                  "name": "Peligro Potencial C&#xE1;ncer",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Alergias y Toxicidad",
+                  "value": 1,
+                  "rating": "MEDIO"
+                },
+                {
+                  "name": "Peligro Potencial Restricciones de uso",
+                  "value": 1,
+                  "rating": "MEDIO"
+                },
+                {
+                  "name": "Peligro Potencial Desarrollo y Reproducci&#xF3;n",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Impacto Medioambiental",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Riesgo Potencial Perturbadores Endocrinos",
+                  "value": 0,
+                  "rating": "BAJO"
+                }
+              ]
+            },
+            "infoToReport": {
+              "pros": "",
+              "cons": "Existen restricciones en cuanto a la concentraci&#xF3;n m&#xE1;xima permitida y el tipo de formulaciones en los que puede utilizarse este ingrediente.",
+              "info": ""
+            },
+            "references": {
+              "reference": [
+                "",
+                "Material Safety Data Sheet MSDS# 96171",
+                "Chasset, F., Soria, A., Moguelet, P., Mathian, A., Auger, Y., Fran&#xE7;ois, C., and Barete, S. (2015). Contact dermatitis due to ultrasound gel: A case report and published work review. The Journal of dermatology.",
+                "Bohn, S., and Bircher, A. J. (2001). Phenoxyethanol induced urticaria. Allergy, 56(9), 922-923.",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "parfum",
+            "totalRisk": {
+              "score": 5.82191780821918,
+              "rating": "MEDIO"
+            },
+            "ingRisk": {
+              "risk": [
+                {
+                  "name": "Peligro Potencial C&#xE1;ncer",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Alergias y Toxicidad",
+                  "value": 4.5,
+                  "rating": "ALTO"
+                },
+                {
+                  "name": "Peligro Potencial Restricciones de uso",
+                  "value": 4,
+                  "rating": "ALTO"
+                },
+                {
+                  "name": "Peligro Potencial Desarrollo y Reproducci&#xF3;n",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Impacto Medioambiental",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Riesgo Potencial Perturbadores Endocrinos",
+                  "value": 0,
+                  "rating": "BAJO"
+                }
+              ]
+            },
+            "infoToReport": {
+              "pros": "",
+              "cons": "El contacto directo con ciertas fragancias o aromas sint&#xE9;tocos inespec&#xED;ficos puede ocasionar alergias, irritar o sensibilizar la piel.",
+              "info": ""
+            },
+            "references": {
+              "reference": [
+                "",
+                "SCCNFP (The Scientific Committee on Cosmetic Products and Non-Food Products Intended for Consumers) 1999. Opinion concerning fragrance allergy in consumers. A review of the problem. Analysis of the need for appropriate consumer information and identification of consumer allergens. SCCNFP/0017/98 Final. December 199 - Tatyana Hamilton and Gillian C de Gannes. 2011. Allergic contact dermatitis to preservatives and fragrances in cosmetics. Skin therapy letter 16(4), 1-4 .- Anne Birgitte Simonsen, Mette Deleuran, Jeanne Duus Johansen and Mette Sommerlund 2011. Contact allergy and allergic contact dermatitis in children - a review of current data. Contact dermatitis 65(5), 254-65.",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "lauramine oxide",
+            "totalRisk": {
+              "score": 0,
+              "rating": "BAJO"
+            },
+            "ingRisk": {
+              "risk": [
+                {
+                  "name": "Peligro Potencial C&#xE1;ncer",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Alergias y Toxicidad",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Restricciones de uso",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Desarrollo y Reproducci&#xF3;n",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Impacto Medioambiental",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Riesgo Potencial Perturbadores Endocrinos",
+                  "value": 0,
+                  "rating": "BAJO"
+                }
+              ]
+            },
+            "infoToReport": {
+              "pros": "",
+              "cons": "Ingrediente generalmente considerado seguro para su uso en productos de Belleza y Cuidado Personal, en las condiciones actuales de concentraci&#xF3;n y pr&#xE1;cticas de uso.",
+              "info": ""
+            },
+            "references": {
+              "reference": "-"
+            }
+          },
+          {
+            "name": "sodium chloride",
+            "totalRisk": {
+              "score": 0.684931506849315,
+              "rating": "BAJO"
+            },
+            "ingRisk": {
+              "risk": [
+                {
+                  "name": "Peligro Potencial C&#xE1;ncer",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Alergias y Toxicidad",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Restricciones de uso",
+                  "value": 1,
+                  "rating": "MEDIO"
+                },
+                {
+                  "name": "Peligro Potencial Desarrollo y Reproducci&#xF3;n",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Impacto Medioambiental",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Riesgo Potencial Perturbadores Endocrinos",
+                  "value": 0,
+                  "rating": "BAJO"
+                }
+              ]
+            },
+            "infoToReport": {
+              "pros": "",
+              "cons": "Ingrediente generalmente considerado seguro para su uso en productos de Belleza y Cuidado Personal, en las condiciones actuales de concentraci&#xF3;n y pr&#xE1;cticas de uso.",
+              "info": ""
+            },
+            "references": {
+              "reference": [
+                "",
+                "US - FOOD &amp; DRUG Administration (FDA). Generally Recognized as Safe (GRAS) Substances (SCOGS) Database (SCOGS Number 102,1979. Conclusion 1 (dry food packaging), 4 (direct additive)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "pentylene glycol",
+            "totalRisk": {
+              "score": 0,
+              "rating": "BAJO"
+            },
+            "ingRisk": {
+              "risk": [
+                {
+                  "name": "Peligro Potencial C&#xE1;ncer",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Alergias y Toxicidad",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Restricciones de uso",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Desarrollo y Reproducci&#xF3;n",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Impacto Medioambiental",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Riesgo Potencial Perturbadores Endocrinos",
+                  "value": 0,
+                  "rating": "BAJO"
+                }
+              ]
+            },
+            "infoToReport": {
+              "pros": "",
+              "cons": "Ingrediente generalmente considerado seguro para su uso en productos de Belleza y Cuidado Personal, en las condiciones actuales de concentraci&#xF3;n y pr&#xE1;cticas de uso.",
+              "info": ""
+            },
+            "references": {
+              "reference": "-"
+            }
+          },
+          {
+            "name": "glycerin",
+            "totalRisk": {
+              "score": 0,
+              "rating": "BAJO"
+            },
+            "ingRisk": {
+              "risk": [
+                {
+                  "name": "Peligro Potencial C&#xE1;ncer",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Alergias y Toxicidad",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Restricciones de uso",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Desarrollo y Reproducci&#xF3;n",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Impacto Medioambiental",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Riesgo Potencial Perturbadores Endocrinos",
+                  "value": 0,
+                  "rating": "BAJO"
+                }
+              ]
+            },
+            "infoToReport": {
+              "pros": "",
+              "cons": "Ingrediente generalmente considerado seguro para su uso en productos de Belleza y Cuidado Personal.",
+              "info": ""
+            },
+            "references": {
+              "reference": [
+                "",
+                "Material Safety Data Sheet MSDS# 96129",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "polyquaternium-6",
+            "totalRisk": {
+              "score": 4.10958904109589,
+              "rating": "MEDIO"
+            },
+            "ingRisk": {
+              "risk": [
+                {
+                  "name": "Peligro Potencial C&#xE1;ncer",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Alergias y Toxicidad",
+                  "value": 1,
+                  "rating": "MEDIO"
+                },
+                {
+                  "name": "Peligro Potencial Restricciones de uso",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Desarrollo y Reproducci&#xF3;n",
+                  "value": 1,
+                  "rating": "MEDIO"
+                },
+                {
+                  "name": "Peligro Potencial Impacto Medioambiental",
+                  "value": 3,
+                  "rating": "ALTO"
+                },
+                {
+                  "name": "Peligro Riesgo Potencial Perturbadores Endocrinos",
+                  "value": 1,
+                  "rating": "MEDIO"
+                }
+              ]
+            },
+            "infoToReport": {
+              "pros": "",
+              "cons": "Ingrediente potencialmente t&#xF3;xico, peligroso y con efectos duraderos en el ambiente.",
+              "info": ""
+            },
+            "references": {
+              "reference": "-"
+            }
+          },
+          {
+            "name": "sodium hydroxide",
+            "totalRisk": {
+              "score": 0.684931506849315,
+              "rating": "BAJO"
+            },
+            "ingRisk": {
+              "risk": [
+                {
+                  "name": "Peligro Potencial C&#xE1;ncer",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Alergias y Toxicidad",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Restricciones de uso",
+                  "value": 1,
+                  "rating": "MEDIO"
+                },
+                {
+                  "name": "Peligro Potencial Desarrollo y Reproducci&#xF3;n",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Impacto Medioambiental",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Riesgo Potencial Perturbadores Endocrinos",
+                  "value": 0,
+                  "rating": "BAJO"
+                }
+              ]
+            },
+            "infoToReport": {
+              "pros": "",
+              "cons": "Ingrediente generalmente considerado seguro para su uso en productos de Belleza y Cuidado Personal, en las condiciones actuales de concentraci&#xF3;n y pr&#xE1;cticas de uso.",
+              "info": ""
+            },
+            "references": {
+              "reference": [
+                "",
+                "US - FOOD &amp; DRUG Administration (FDA). Generally Recognized as Safe (GRAS) Substances (SCOGS) Database (SCOGS Number 85,1976. Conclusion 1)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "tetrasodium EDTA",
+            "totalRisk": {
+              "score": 3.49315068493151,
+              "rating": "MEDIO"
+            },
+            "ingRisk": {
+              "risk": [
+                {
+                  "name": "Peligro Potencial C&#xE1;ncer",
+                  "value": 1,
+                  "rating": "MEDIO"
+                },
+                {
+                  "name": "Peligro Potencial Alergias y Toxicidad",
+                  "value": 1,
+                  "rating": "MEDIO"
+                },
+                {
+                  "name": "Peligro Potencial Restricciones de uso",
+                  "value": 1,
+                  "rating": "MEDIO"
+                },
+                {
+                  "name": "Peligro Potencial Desarrollo y Reproducci&#xF3;n",
+                  "value": 1,
+                  "rating": "MEDIO"
+                },
+                {
+                  "name": "Peligro Potencial Impacto Medioambiental",
+                  "value": 1,
+                  "rating": "MEDIO"
+                },
+                {
+                  "name": "Peligro Riesgo Potencial Perturbadores Endocrinos",
+                  "value": 1,
+                  "rating": "MEDIO"
+                }
+              ]
+            },
+            "infoToReport": {
+              "pros": "",
+              "cons": "Ingrediente generalmente considerado seguro para su uso en productos de Belleza y Cuidado Personal, en las condiciones actuales de concentraci&#xF3;n y pr&#xE1;cticas de uso. Sin embargo, la sobreexposici&#xF3;n a este ingrediente puede resultar t&#xF3;xica.",
+              "info": ""
+            },
+            "references": {
+              "reference": [
+                "",
+                "Lanigan RS, Yamarik TA. Final report on the safety assessment of EDTA, calcium disodium EDTA, diammonium EDTA, dipotassium EDTA, disodium EDTA, TEA-EDTA, tetrasodium EDTA, tripotassium EDTA, trisodium EDTA, HEDTA, and trisodium HEDTA. Int J Toxicol. 2002",
+                "21 Suppl 2:95-142.",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "polyquaternium-22",
+            "totalRisk": {
+              "score": 2.05479452054795,
+              "rating": "BAJO"
+            },
+            "ingRisk": {
+              "risk": [
+                {
+                  "name": "Peligro Potencial C&#xE1;ncer",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Alergias y Toxicidad",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Restricciones de uso",
+                  "value": 3,
+                  "rating": "ALTO"
+                },
+                {
+                  "name": "Peligro Potencial Desarrollo y Reproducci&#xF3;n",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Impacto Medioambiental",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Riesgo Potencial Perturbadores Endocrinos",
+                  "value": 0,
+                  "rating": "BAJO"
+                }
+              ]
+            },
+            "infoToReport": {
+              "pros": "",
+              "cons": "Ingrediente generalmente considerado seguro para su uso en productos de Belleza y Cuidado Personal aunque, al momento, se cuenta con limitada evidencia cient&#xED;fica para aportar una conclusi&#xF3;n robusta.",
+              "info": ""
+            },
+            "references": {
+              "reference": "-"
+            }
+          },
+          {
+            "name": "PEG-4 dilaurate",
+            "totalRisk": {
+              "score": 0,
+              "rating": "BAJO"
+            },
+            "ingRisk": {
+              "risk": [
+                {
+                  "name": "Peligro Potencial C&#xE1;ncer",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Alergias y Toxicidad",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Restricciones de uso",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Desarrollo y Reproducci&#xF3;n",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Impacto Medioambiental",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Riesgo Potencial Perturbadores Endocrinos",
+                  "value": 0,
+                  "rating": "BAJO"
+                }
+              ]
+            },
+            "infoToReport": {
+              "pros": "",
+              "cons": "-",
+              "info": ""
+            },
+            "references": {
+              "reference": "-"
+            }
+          },
+          {
+            "name": "triticum vulgare (wheat) bran extract",
+            "totalRisk": {
+              "score": 0,
+              "rating": "BAJO"
+            },
+            "ingRisk": {
+              "risk": [
+                {
+                  "name": "Peligro Potencial C&#xE1;ncer",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Alergias y Toxicidad",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Restricciones de uso",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Desarrollo y Reproducci&#xF3;n",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Impacto Medioambiental",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Riesgo Potencial Perturbadores Endocrinos",
+                  "value": 0,
+                  "rating": "BAJO"
+                }
+              ]
+            },
+            "infoToReport": {
+              "pros": "",
+              "cons": "Ingrediente obtenido como extracto de salvado de trigo Triticum Vulgare, Poaceae. Es una fuente de proteina de gluten. Este ingrediente se usa como suavizante de la piel y acondicionador capilar.",
+              "info": ""
+            },
+            "references": {
+              "reference": "-"
+            }
+          },
+          {
+            "name": "PEG-200",
+            "totalRisk": {
+              "score": 0,
+              "rating": "BAJO"
+            },
+            "ingRisk": {
+              "risk": [
+                {
+                  "name": "Peligro Potencial C&#xE1;ncer",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Alergias y Toxicidad",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Restricciones de uso",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Desarrollo y Reproducci&#xF3;n",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Impacto Medioambiental",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Riesgo Potencial Perturbadores Endocrinos",
+                  "value": 0,
+                  "rating": "BAJO"
+                }
+              ]
+            },
+            "infoToReport": {
+              "pros": "",
+              "cons": "Ingrediente generalmente considerado seguro para su uso en productos de Belleza y Cuidado Personal, en las condiciones actuales de concentraci&#xF3;n y pr&#xE1;cticas de uso.",
+              "info": ""
+            },
+            "references": {
+              "reference": "-"
+            }
+          },
+          {
+            "name": "iodopropynyl butylcarbamate",
+            "totalRisk": {
+              "score": 3.49315068493151,
+              "rating": "MEDIO"
+            },
+            "ingRisk": {
+              "risk": [
+                {
+                  "name": "Peligro Potencial C&#xE1;ncer",
+                  "value": 1,
+                  "rating": "MEDIO"
+                },
+                {
+                  "name": "Peligro Potencial Alergias y Toxicidad",
+                  "value": 2,
+                  "rating": "MEDIO"
+                },
+                {
+                  "name": "Peligro Potencial Restricciones de uso",
+                  "value": 1,
+                  "rating": "MEDIO"
+                },
+                {
+                  "name": "Peligro Potencial Desarrollo y Reproducci&#xF3;n",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Impacto Medioambiental",
+                  "value": 2,
+                  "rating": "MEDIO"
+                },
+                {
+                  "name": "Peligro Riesgo Potencial Perturbadores Endocrinos",
+                  "value": 0,
+                  "rating": "BAJO"
+                }
+              ]
+            },
+            "infoToReport": {
+              "pros": "",
+              "cons": "Ingrediente potencialmente cancer&#xED;geno y con capacidad para alterar la informaci&#xF3;n gen&#xE9;tica de un organismo biol&#xF3;gico, sensibilizador de la piel y con efectos duraderos en el ambiente.",
+              "info": ""
+            },
+            "references": {
+              "reference": [
+                "",
+                "European Commission Legislation (Regulation (EC) N&#xB0; 1223/2009 y 2019/831, Annexes I to VI and all the amendments to the cosmetics regulation).",
+                "Regulation (EU) No 528/2012 concerning the making available on the market and use of biocidal products Evaluation of active substancesAssessment Report (January 2015, Denmark)",
+                "European Chemical Agency (ECHA)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "1,2-hexanediol",
+            "totalRisk": {
+              "score": 1.36986301369863,
+              "rating": "BAJO"
+            },
+            "ingRisk": {
+              "risk": [
+                {
+                  "name": "Peligro Potencial C&#xE1;ncer",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Alergias y Toxicidad",
+                  "value": 2,
+                  "rating": "MEDIO"
+                },
+                {
+                  "name": "Peligro Potencial Restricciones de uso",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Desarrollo y Reproducci&#xF3;n",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Impacto Medioambiental",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Riesgo Potencial Perturbadores Endocrinos",
+                  "value": 0,
+                  "rating": "BAJO"
+                }
+              ]
+            },
+            "infoToReport": {
+              "pros": "",
+              "cons": "Este ingrediente puede sensibilizar la piel o causar irritaci&#xF3;n, aunque al momento se cuenta con limitada evidencia cient&#xED;fica para aportar una conclusi&#xF3;n robusta.",
+              "info": ""
+            },
+            "references": {
+              "reference": "-"
+            }
+          },
+          {
+            "name": "caprylyl glycol",
+            "totalRisk": {
+              "score": 2.73972602739726,
+              "rating": "BAJO"
+            },
+            "ingRisk": {
+              "risk": [
+                {
+                  "name": "Peligro Potencial C&#xE1;ncer",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Alergias y Toxicidad",
+                  "value": 2,
+                  "rating": "MEDIO"
+                },
+                {
+                  "name": "Peligro Potencial Restricciones de uso",
+                  "value": 2,
+                  "rating": "MEDIO"
+                },
+                {
+                  "name": "Peligro Potencial Desarrollo y Reproducci&#xF3;n",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Impacto Medioambiental",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Riesgo Potencial Perturbadores Endocrinos",
+                  "value": 0,
+                  "rating": "BAJO"
+                }
+              ]
+            },
+            "infoToReport": {
+              "pros": "",
+              "cons": "Este ingrediente puede sensibilizar la piel y causar irritaci&#xF3;n, aunque al momento se cuenta con limitada evidencia cient&#xED;fica para aportar una conclusi&#xF3;n robusta.",
+              "info": ""
+            },
+            "references": {
+              "reference": [
+                "",
+                "European Chemical Agency (ECHA)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "citric acid",
+            "totalRisk": {
+              "score": 0.684931506849315,
+              "rating": "BAJO"
+            },
+            "ingRisk": {
+              "risk": [
+                {
+                  "name": "Peligro Potencial C&#xE1;ncer",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Alergias y Toxicidad",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Restricciones de uso",
+                  "value": 1,
+                  "rating": "MEDIO"
+                },
+                {
+                  "name": "Peligro Potencial Desarrollo y Reproducci&#xF3;n",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Impacto Medioambiental",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Riesgo Potencial Perturbadores Endocrinos",
+                  "value": 0,
+                  "rating": "BAJO"
+                }
+              ]
+            },
+            "infoToReport": {
+              "pros": "",
+              "cons": "Ingrediente generalmente considerado seguro para su uso en productos de Belleza y Cuidado Personal, en las condiciones actuales de concentraci&#xF3;n y pr&#xE1;cticas de uso.",
+              "info": ""
+            },
+            "references": {
+              "reference": [
+                "",
+                "CIR (Cosmetic Ingredient Review). CIR Compendium, containing abstracts, discussions, and conclusions of CIR cosmetic ingredient safety assessments (Washington DC, 2006).",
+                "US - FOOD &amp; DRUG Administration (FDA). Generally Recognized as Safe (GRAS) Substances (SCOGS) Database (SCOGS Number 84,1977. Conclusion 1)",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "astrocaryum murumuru seed butter",
+            "totalRisk": {
+              "score": 0,
+              "rating": "BAJO"
+            },
+            "ingRisk": {
+              "risk": [
+                {
+                  "name": "Peligro Potencial C&#xE1;ncer",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Alergias y Toxicidad",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Restricciones de uso",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Desarrollo y Reproducci&#xF3;n",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Impacto Medioambiental",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Riesgo Potencial Perturbadores Endocrinos",
+                  "value": 0,
+                  "rating": "BAJO"
+                }
+              ]
+            },
+            "infoToReport": {
+              "pros": "",
+              "cons": "Ingrediente generalmente considerado seguro para su uso en productos de Belleza y Cuidado Personal.",
+              "info": ""
+            },
+            "references": {
+              "reference": "-"
+            }
+          },
+          {
+            "name": "bertholletia excelsa seed oil",
+            "totalRisk": {
+              "score": 0,
+              "rating": "BAJO"
+            },
+            "ingRisk": {
+              "risk": [
+                {
+                  "name": "Peligro Potencial C&#xE1;ncer",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Alergias y Toxicidad",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Restricciones de uso",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Desarrollo y Reproducci&#xF3;n",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Impacto Medioambiental",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Riesgo Potencial Perturbadores Endocrinos",
+                  "value": 0,
+                  "rating": "BAJO"
+                }
+              ]
+            },
+            "infoToReport": {
+              "pros": "",
+              "cons": "Ingrediente generalmente considerado seguro para su uso en productos de Belleza y Cuidado Personal.",
+              "info": ""
+            },
+            "references": {
+              "reference": "-"
+            }
+          },
+          {
+            "name": "triethanolamine",
+            "totalRisk": {
+              "score": 2.05479452054795,
+              "rating": "BAJO"
+            },
+            "ingRisk": {
+              "risk": [
+                {
+                  "name": "Peligro Potencial C&#xE1;ncer",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Alergias y Toxicidad",
+                  "value": 2,
+                  "rating": "MEDIO"
+                },
+                {
+                  "name": "Peligro Potencial Restricciones de uso",
+                  "value": 1,
+                  "rating": "MEDIO"
+                },
+                {
+                  "name": "Peligro Potencial Desarrollo y Reproducci&#xF3;n",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Impacto Medioambiental",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Riesgo Potencial Perturbadores Endocrinos",
+                  "value": 0,
+                  "rating": "BAJO"
+                }
+              ]
+            },
+            "infoToReport": {
+              "pros": "",
+              "cons": "Existen restricciones en cuanto a la concentraci&#xF3;n m&#xE1;xima permitida y el tipo de formulaciones en los que puede utilizarse este ingrediente. Potencialmente irritante y sensibilizador de la piel y del sistema respiratorio.",
+              "info": ""
+            },
+            "references": {
+              "reference": [
+                "",
+                "Material Safety Data Sheet MSDS# 23930",
+                "https://www.cosmeticsinfo.org/ingredient/triethanolamine.",
+                "Stout, M. D., Kissling, G. E., Su&#xE1;rez, F. A., Malarkey, D. E., Herbert, R. A., &amp; Bucher, J. R. (2008). Toxicologic pathology, 36(6), 783-794.",
+                "ACGIH, IARC, NTP, or CA Prop 65.",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "sr-spider polypeptide-1",
+            "totalRisk": {
+              "score": 0,
+              "rating": "BAJO"
+            },
+            "ingRisk": {
+              "risk": [
+                {
+                  "name": "Peligro Potencial C&#xE1;ncer",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Alergias y Toxicidad",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Restricciones de uso",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Desarrollo y Reproducci&#xF3;n",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Impacto Medioambiental",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Riesgo Potencial Perturbadores Endocrinos",
+                  "value": 0,
+                  "rating": "BAJO"
+                }
+              ]
+            },
+            "infoToReport": {
+              "pros": "",
+              "cons": "Ingrediente generalmente considerado seguro para su uso en productos de Belleza y Cuidado Personal.",
+              "info": ""
+            },
+            "references": {
+              "reference": "-"
+            }
+          },
+          {
+            "name": "tocopherol",
+            "totalRisk": {
+              "score": 0,
+              "rating": "BAJO"
+            },
+            "ingRisk": {
+              "risk": [
+                {
+                  "name": "Peligro Potencial C&#xE1;ncer",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Alergias y Toxicidad",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Restricciones de uso",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Desarrollo y Reproducci&#xF3;n",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Impacto Medioambiental",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Riesgo Potencial Perturbadores Endocrinos",
+                  "value": 0,
+                  "rating": "BAJO"
+                }
+              ]
+            },
+            "infoToReport": {
+              "pros": "",
+              "cons": "Ingrediente generalmente considerado seguro para su uso en productos de Belleza y Cuidado Personal.",
+              "info": ""
+            },
+            "references": {
+              "reference": "-"
+            }
+          },
+          {
+            "name": "linalool",
+            "totalRisk": {
+              "score": 2.73972602739726,
+              "rating": "BAJO"
+            },
+            "ingRisk": {
+              "risk": [
+                {
+                  "name": "Peligro Potencial C&#xE1;ncer",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Alergias y Toxicidad",
+                  "value": 3,
+                  "rating": "ALTO"
+                },
+                {
+                  "name": "Peligro Potencial Restricciones de uso",
+                  "value": 1,
+                  "rating": "MEDIO"
+                },
+                {
+                  "name": "Peligro Potencial Desarrollo y Reproducci&#xF3;n",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Impacto Medioambiental",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Riesgo Potencial Perturbadores Endocrinos",
+                  "value": 0,
+                  "rating": "BAJO"
+                }
+              ]
+            },
+            "infoToReport": {
+              "pros": "",
+              "cons": "Ingrediente presente en la muchos de los aceites esenciales usados en productos de Belleza y Cuidado Personal, natural. En su forma pura sus efectos al&#xE9;rgenos son muy bajos. Sin embargo, en contacto con el aire, el Linalool puede oxidarse, dando lugar a la formaci&#xF3;n de productos con caracter&#xED;sticas alerg&#xE9;nicas e irritantes para la piel.",
+              "info": ""
+            },
+            "references": {
+              "reference": [
+                "",
+                "Br&#xE5;red Christensson J, Andersen KE, Bruze M, et al. Contact Dermatitis. 2012,67(5):247-259.",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "butylphenyl methylpropional",
+            "totalRisk": {
+              "score": 2.05479452054795,
+              "rating": "BAJO"
+            },
+            "ingRisk": {
+              "risk": [
+                {
+                  "name": "Peligro Potencial C&#xE1;ncer",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Alergias y Toxicidad",
+                  "value": 2,
+                  "rating": "MEDIO"
+                },
+                {
+                  "name": "Peligro Potencial Restricciones de uso",
+                  "value": 1,
+                  "rating": "MEDIO"
+                },
+                {
+                  "name": "Peligro Potencial Desarrollo y Reproducci&#xF3;n",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Impacto Medioambiental",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Riesgo Potencial Perturbadores Endocrinos",
+                  "value": 0,
+                  "rating": "BAJO"
+                }
+              ]
+            },
+            "infoToReport": {
+              "pros": "",
+              "cons": "Ingrediente potencialmente irritante y sensibiliador de la piel.",
+              "info": ""
+            },
+            "references": {
+              "reference": "Global Regulatory Issues for the Cosmetics Industry, 2009, volume 2, pages 55-78"
+            }
+          },
+          {
+            "name": "citronellol",
+            "totalRisk": {
+              "score": 2.05479452054795,
+              "rating": "BAJO"
+            },
+            "ingRisk": {
+              "risk": [
+                {
+                  "name": "Peligro Potencial C&#xE1;ncer",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Alergias y Toxicidad",
+                  "value": 3,
+                  "rating": "ALTO"
+                },
+                {
+                  "name": "Peligro Potencial Restricciones de uso",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Desarrollo y Reproducci&#xF3;n",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Impacto Medioambiental",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Riesgo Potencial Perturbadores Endocrinos",
+                  "value": 0,
+                  "rating": "BAJO"
+                }
+              ]
+            },
+            "infoToReport": {
+              "pros": "",
+              "cons": "Ingrediente potencialmente irritante para la piel.",
+              "info": ""
+            },
+            "references": {
+              "reference": "-"
+            }
+          },
+          {
+            "name": "limonene",
+            "totalRisk": {
+              "score": 2.73972602739726,
+              "rating": "BAJO"
+            },
+            "ingRisk": {
+              "risk": [
+                {
+                  "name": "Peligro Potencial C&#xE1;ncer",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Alergias y Toxicidad",
+                  "value": 1,
+                  "rating": "MEDIO"
+                },
+                {
+                  "name": "Peligro Potencial Restricciones de uso",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Desarrollo y Reproducci&#xF3;n",
+                  "value": 0,
+                  "rating": "BAJO"
+                },
+                {
+                  "name": "Peligro Potencial Impacto Medioambiental",
+                  "value": 3,
+                  "rating": "ALTO"
+                },
+                {
+                  "name": "Peligro Riesgo Potencial Perturbadores Endocrinos",
+                  "value": 0,
+                  "rating": "BAJO"
+                }
+              ]
+            },
+            "infoToReport": {
+              "pros": "",
+              "cons": "Ingrediente potencialmente irritante para la piel, peligroso para la vida acu&#xE1;tica y con efectos duraderos en el ambiente.",
+              "info": ""
+            },
+            "references": {
+              "reference": [
+                "",
+                "European Commission Legislation (Regulation (EC) N&#xB0; 1223/2009 y 2019/831, Annexes I to VI and all the amendments to the cosmetics regulation).",
+                ""
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

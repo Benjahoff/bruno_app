@@ -1,0 +1,58 @@
+<ion-content>
+    <img class="position-absolute div__background-wavetop" src="../../../assets/icon/infoWaveTop.png" alt="">
+    <div class="position-absolute container contenedorModalTop">
+        <div class="row mt-4">
+            <div class="col-2 my-auto text-center">
+                <img class=" div_closebutton" (click)="returnHome()" src="../../../assets/icon/close.png" alt="">
+            </div>
+            <div class="col-8 goodvibes-btn-home my-auto text-center goodvibes-text-info2">
+                <p class="my-auto closeSectionText">{{ 'choice.text' | translate }}</p>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </div>
+
+    <div class="container centrar-vertical " style="height: 69.4vh;">
+        <div class="row mt-5 stepText mt-5">
+            <div class="col-12 mt-5">
+                <div class="row" (click)="btnChoice('6')">
+                    <div class="col-2"></div>
+                    <div class="col-4">
+                        <img class="img-fluid" width="100" src="../../../assets/icon/food.png" alt="">
+                    </div>
+                    <div class=" col-6 mt-3 goodvibes-choice">
+                        <h4>{{'choice.food' | translate}}</h4>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-12 mt-5">
+                <div class="row" (click)="btnChoice('3')">
+                    <div class="col-2"></div>
+                    <div class="col-4">
+                        <img class="img-fluid" width="100" src="../../../assets/icon/bpc.png" alt="">
+                    </div>
+                    <div class=" col-6 mt-3 goodvibes-choice">
+                        <h4>{{'choice.bpc' | translate}}</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 mt-5">
+                <div class="row" (click)="btnChoice('3')">
+                    <div class="col-2"></div>
+                    <div class="col-4">
+                        <img class="img-fluid" width="100" src="../../../assets/icon/home.png" alt="">
+                    </div>
+                    <div class=" col-6 mt-3 goodvibes-choice">
+                        <h4>{{'choice.home' | translate}}</h4>
+                    </div>
+                </div>
+            </div>       
+
+        </div>
+    </div>
+    <div class="col-12 text-center fixed-bottom mb-5">
+        <app-button [btnText]="'consult.consults' | translate" [routeLink]="this.routeLink2"></app-button>
+    </div>
+    <img class="position-absolute div__background-wavebottom " src="../../../assets/icon/infoWaveBottom.png " alt=" ">
+</ion-content>

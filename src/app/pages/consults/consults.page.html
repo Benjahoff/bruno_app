@@ -1,0 +1,29 @@
+<ion-content color="">
+  <img class="position-absolute div__background-wavetop" src="../../../assets/icon/infoWaveTop.png" alt="">
+  <div class="position-absolute container contenedorModalTop">
+      <div class="row mt-4">
+          <div class="col-2 my-auto text-center">
+              <img class=" div_closebutton" (click)="returnHome()" src="../../../assets/icon/close.png" alt="">
+          </div>
+          <div class="col-8 goodvibes-btn-home my-auto text-center goodvibes-text-info2">
+              <p class="my-auto closeSectionText">{{ 'consult.consults' | translate }}</p>
+          </div>
+          <div class="col-2"></div>
+      </div>
+  </div>
+
+  <div class="container centrar-vertical listaHeight mt-4" style="height: 69.4vh;">
+        <div class="row mt-5 stepText mt-5" *ngIf="isLoading">            
+            <ion-spinner name="lines"></ion-spinner>            
+        </div>  
+        <div class="row mt-5 stepText mt-5" *ngIf="!isLoading">
+            <div class="d-grid gap-2 mt-5" *ngIf="consults.length > 0">
+              <button class="btn btn-outline-dark" *ngFor="let item of consults" (click)="verConsulta(item)">{{item['fecha'] | date: 'dd/MM/y HH:mm:ss'}}</button>
+            </div>
+            <div class="col-12 mt-5" *ngIf="consults.length == 0">
+                <p>{{ 'consult.empty' | translate }}</p>  
+            </div>          
+        </div>
+    </div>  
+    <img class="position-absolute div__background-wavebottom " src="../../../assets/icon/infoWaveBottom.png " alt=" ">
+</ion-content>

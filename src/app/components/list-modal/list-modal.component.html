@@ -1,0 +1,23 @@
+<div *ngIf="ingredients.length >= 1" class="tableIngredients">
+  <div class="align-center" (click)="expandItem(ingredient)" *ngFor="let ingredient of ingredients">
+    <div class="row item-list">
+      <div class="col-9 text-left ingredients">
+        <p class=""> {{ingredient['name'] |titlecase}}</p>
+      </div>
+      <div class="col-1 text-right ingredients text-blue" *ngIf="ingredient['open']">
+        <i class="fas fa-chevron-right"></i>
+      </div>
+      <div class="col-1 text-right ingredients text-blue" *ngIf="!ingredient['open']">
+        <i class="fas fa-chevron-down"></i>
+      </div>
+    </div>
+    <app-expandable expandHeight="100%" [expanded]="ingredient['open']">
+      <p class="ingredients-info">{{ingredient['infoToReport']['cons']}}
+      </p>
+      <p class="ingredients-info2 text-center mb-1">
+        {{ingredient['totalRisk']['score'] | number : '1.1-1'}}%
+      </p>
+      <div class="circulo m-auto" [ngStyle]="{'background-color': ingredient['background-circle']}"></div>
+    </app-expandable>
+  </div>
+</div>
