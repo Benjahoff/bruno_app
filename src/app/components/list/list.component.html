@@ -17,41 +17,19 @@
             <div class="col-sm mt-4">
                 <img class="div_closebutton" (click)="returnHome()" src="../../../assets/v1.1/BOTONES/Atras.png" alt="">
             </div>
-            <div class="row mt-4 mb-4">
-                <div class="col-12 text-center text-white" >
-                    <p class="text-bold" *ngIf="ingredientsList['product'].name !== ''">{{ingredientsList['product'].name | uppercase}}</p>
-                    </div>
-                <div class="col-4 text-right p-0">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="circulo-numero d-block ml-auto mr-0 text-blue text-center">
-                                <div class="product-score">
-                                    <p class="text-small p-score" *ngIf="isProduct">
-                                        {{ingredientsList['product']['report']['score'] |number : '1.1-1'}}</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <img *ngIf="isProduct"
-                                [src]="ingredientsList['product']['report']['score'] <= 2 ? '../../../assets/v1.1/BARRA PUNTAJE/0.png' : ingredientsList['product']['report']['score'] <= 4 ? '../../../assets/v1.1/BARRA PUNTAJE/2.png':ingredientsList['product']['report']['score'] <= 6 ? '../../../assets/v1.1/BARRA PUNTAJE/4.png':ingredientsList['product']['report']['score'] <= 8 ? '../../../assets/v1.1/BARRA PUNTAJE/6.png':'../../../assets/v1.1/BARRA PUNTAJE/8.png'"
-                                class="ml-auto mr-1 d-block div__width-puntaje">
-                        </div>
-                    </div>
+            <div class="row mt-4 mb-2">
+                <div class="col-12 text-center p-0 mt-2">
+                    <img src="../../../assets/Iconos/Alerta.png" class="div__width-logo">
                 </div>
-                <div class="col-6 p-0 mt-2">
-                    <img [src]="ingredientsList['product']['urlImage'] ? ingredientsList['product']['urlImage'] : '../../../assets/v1.1/PRODUCTO SIN IMAGEN/' + urlImage"
-                        class="div__width-logo">
-                </div>
-                <div class="col-2 p-0"></div>
             </div>
             <div [ngClass]="!isProduct ? 'row mt-4 text-center text-blue noProductMargin' : 'row mt-4 text-center text-blue'">
                 <div class="col-12 mt-4">
                     <h2 class="text-bold">{{'result.ingredient' | translate | uppercase }} </h2>
                 </div>
             </div>
-            <div class=" mt-3 text-blue listaHeight">
+            <div class="mt-5 text-blue listaHeight">
                 <div *ngIf="!isProduct">
-                    <div class="col-11" (click)="expandItem(item)" *ngFor="let item of ingredients">
+                    <div class="col-11 mt-4" (click)="expandItem(item)" *ngFor="let item of ingredients">
                         <div class="row item-list">
                             <div [ngStyle]="{'color': item[8]}" class="col-9 text-left ingredients">
                                 <p class=""> {{item[0] |titlecase}}</p>
@@ -67,7 +45,7 @@
                     </div>
                 </div>
                 <div *ngIf="isProduct">
-                    <div class="col-11" (click)="expandItem(item)" *ngFor="let item of ingredients">
+                    <div class="col-11 mt-4" (click)="expandItem(item)" *ngFor="let item of ingredients">
                         <div class="row item-list">
                             <div [ngStyle]="{'color': item[8]}" class="col-9 text-left ingredients">
                                 <p class=""> {{item['name'] |titlecase}}</p>
@@ -91,10 +69,12 @@
                     </div>
                 </div>
             </div>
-            <div class="text-center btn-absolut">
-                <div class="container-btn">
-                    <img src="../../../assets/v1.1/BOTONES/Discover Healthy Products 1.png" class="img-zoom" (click)="openModal()">
-                    <p class="text-btn" (click)="openModal()">{{'choice.button' | translate | uppercase}}</p>
+            <div >
+                <div class="col-12 mt-4 text-center">
+                    <app-button class="btnProductNext" [btnText]="'result.button' | translate" (emitClick)="finalizar()"></app-button>
+                </div>
+                <div class="col-12 text-center">
+                    <app-button class="btnProductBuy" [btnText]="'result.buy' | translate" (emitClick)="finalizar()" [primary]="false"></app-button>
                 </div>
             </div>
         </div>

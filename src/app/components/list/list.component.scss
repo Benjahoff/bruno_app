@@ -47,7 +47,24 @@
     top: 120%;
     left: 50%;
     -webkit-transform: translateX(-50%);
-    transform: translateX(-50%)}
+    transform: translateX(-50%)
+}
+.btnProductNext{
+    width: 54%;
+    position: absolute;
+    top: 83%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
+.btnProductBuy{
+    width: 54%;
+    position: absolute;
+    top: 91%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
 .btnBuy{
     width: 54%;
     position: absolute;
@@ -58,7 +75,7 @@
 }
 
 .div__width-logo {
-    width: 70%;
+    width: 20%;
 }
 .div__width-puntaje {
     width: 15%;
@@ -266,5 +283,11 @@
 @media screen and ( min-height: 910px ) {
     .listaHeight {
         height: 47vh;
+    }
+    .btnProductNext{
+        top: 86%;
+    }
+    .btnProductBuy{
+        top: 93%;
     }
 }
