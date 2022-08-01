@@ -17,12 +17,12 @@
             <div class="col-sm mt-4">
                 <img class="div_closebutton" (click)="returnHome()" src="../../../assets/v1.1/BOTONES/Atras.png" alt="">
             </div>
-            <div class="row mt-4 mb-2">
+            <div class="row mt-2 mb-2">
                 <div class="col-12 text-center p-0 mt-2">
                     <img src="../../../assets/Iconos/Alerta.png" class="div__width-logo">
                 </div>
             </div>
-            <div [ngClass]="!isProduct ? 'row mt-4 text-center text-blue noProductMargin' : 'row mt-4 text-center text-blue'">
+            <div [ngClass]="!isProduct ? 'row mt-2 text-center text-blue noProductMargin' : 'row mt-2 text-center text-blue'">
                 <div class="col-12 mt-4">
                     <h2 class="text-bold">{{'result.ingredient' | translate | uppercase }} </h2>
                 </div>

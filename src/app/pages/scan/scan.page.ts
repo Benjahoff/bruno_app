@@ -143,9 +143,8 @@ export class ScanPage implements OnInit {
       (resp) => {
         this.isLoading = false;
         this.ingredientsList = resp['data'];
-        this.ingredientsList['product'] = [];
+        //this.ingredientsList['product'] = [];
         this.ingredientsList['product'] = product['default']['data']['product'];
-
         this.consultaId = resp['consulta'];
         console.log('Lista ', this.ingredientsList);
       },
