@@ -41,7 +41,6 @@ export class ListComponent implements OnInit {
 
   ngOnInit() {
     //si es producto
-    debugger
     if ( this.ingredientsList['product'] && this.ingredientsList['product'] !== []) {
       if (this.ingredientsList['product']['ingredients']) {
         this.ingredients = this.ingredientsList['product']['ingredients']['ing'];
