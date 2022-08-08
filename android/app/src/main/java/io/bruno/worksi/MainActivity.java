@@ -1,4 +1,4 @@
-package io.goodvibes.worksi;
+package io.bruno.worksi;
 
 import com.getcapacitor.BridgeActivity;
 

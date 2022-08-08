@@ -88,7 +88,7 @@ export class ListComponent implements OnInit {
 
   feedback() {
     this.langs = this.translate.currentLang;
-    window.open('https://www.goodvibesmovement.in/en/all-products/', '_system');
+    window.open('https://www.brunomovement.in/en/all-products/', '_system');
 
     /* switch(this.langs) {
       case "es": {
