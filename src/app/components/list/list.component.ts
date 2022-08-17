@@ -85,6 +85,10 @@ export class ListComponent implements OnInit {
     this.route.navigate(['send']);
   }
 
+  goToShop(){
+    window.open('https://www.idealo.es/cat/1153/comida-para-perros.html', '_system');
+  }
+
   feedback() {
     this.langs = this.translate.currentLang;
     window.open('https://www.brunomovement.in/en/all-products/', '_system');
