@@ -86,7 +86,7 @@ export class ListComponent implements OnInit {
   }
 
   goToShop(){
-    window.open('https://www.idealo.es/cat/1153/comida-para-perros.html', '_system');
+    window.open('https://www.idealo.es/cat/11153/comida-para-perros.html', '_system');
   }
 
   feedback() {

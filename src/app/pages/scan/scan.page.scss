@@ -70,6 +70,7 @@ ion-content {
 
 .btnBottomSendPhoto {
     position: absolute;
+    z-index: 99 !important;
     //top: 60%;
     left: 10%; 
     bottom: 4vh;

@@ -1702,7 +1702,7 @@
 
             var data = {
               image: imagedata,
-              code: '2y12U9.BrhUsFQvQzCXNQOWrAe4wIG9qo9H4DZ.BdJUQvTeQv/LKtC89e',
+              code: '2y12U9.BrhUsFQvQzCXNQOWrAe4wIG9qo9H4DZ.BdJUQvTeQv/LKtC89eBRUNO',
               device: this.device.uuid,
               lang: this.langs,
               type: this.type
