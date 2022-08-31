@@ -27,9 +27,9 @@
                     <h2 class="text-bold">{{'result.ingredient' | translate | uppercase }} </h2>
                 </div>
             </div>
-            <div class="mt-5 text-blue listaHeight">
+            <div class="text-blue listaHeight">
                 <div *ngIf="!isProduct">
-                    <div class="col-11 mt-4" (click)="expandItem(item)" *ngFor="let item of ingredients">
+                    <div class="col-11" (click)="expandItem(item)" *ngFor="let item of ingredients">
                         <div class="row item-list">
                             <div [ngStyle]="{'color': item[8]}" class="col-9 text-left ingredients">
                                 <p class=""> {{item[0] |titlecase}}</p>
@@ -45,7 +45,7 @@
                     </div>
                 </div>
                 <div *ngIf="isProduct">
-                    <div class="col-11 mt-4" (click)="expandItem(item)" *ngFor="let item of ingredients">
+                    <div class="col-11" (click)="expandItem(item)" *ngFor="let item of ingredients">
                         <div class="row item-list">
                             <div [ngStyle]="{'color': item[8]}" class="col-9 text-left ingredients">
                                 <p class=""> {{item['name'] |titlecase}}</p>

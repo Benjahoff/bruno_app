@@ -34,7 +34,10 @@
 }
 .div__background-wavetop {
     width: 100%;
-    z-index: -5;
+}
+
+.headerIndex{
+    z-index: 15;
 }
 
 .imgSend{
@@ -232,6 +235,7 @@
 .listaHeight {
     height: 30vh;
     text-align: -webkit-center;
+    margin-top: 30%;
     overflow-y: auto;
     overflow-x: hidden;
 }
@@ -271,18 +275,19 @@
 @media screen and ( min-height: 739px ) {
     .listaHeight {
         height: 37vh;
+        
     }
 }
 //xr 12pro pixel
 @media screen and ( min-height: 844px ) {
     .listaHeight {
-        height: 45vh;
+        height: 40vh;
     }
 }
 //s20 Ultra
 @media screen and ( min-height: 910px ) {
     .listaHeight {
-        height: 47vh;
+        height: 45vh;
     }
     .btnProductNext{
         top: 86%;
