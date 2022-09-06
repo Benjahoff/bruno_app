@@ -1,8 +1,8 @@
 {
     "home": {
         "check": "Seleccione una categoría",
-        "result": "Verificar Ingredientes",
-        "scan": "Tomar una foto",
+        "result": "Conoce sus ingredientes",
+        "scan": "Envía una foto",
         "button": "¡VAMOS!"
     },
     "info": {
@@ -13,7 +13,7 @@
         "text3": "¡Verifica que la imagen sea clara y envíala!"
     },
     "choice": {
-        "text": "SELECCIONA LA CATEGORÍA DEL PRODUCTO DE MASCOTA.",
+        "text": "SELECCIONA LA CATEGORÍA DEL PRODUCTO DE TU MASCOTA.",
         "food": "Alimentos",
         "kids" : "Niños",
         "pets" : "Mascotas",
@@ -38,7 +38,7 @@
         "mail": "Email",
         "message": "Mensaje",
         "button": "Enviar",
-        "datos": "Completá los resaltados",
+        "datos": "Completa los resultados",
         "text1": "Hemos recibido tu mensaje.",
         "text2": "Te estaremos respondiendo a la brevedad."
     },
@@ -46,17 +46,18 @@
         "repeat": "Prueba nuevamente",
         "take": "Toma una Foto",
         "send": "Envíala",
-        "text": "Haz una foto de los ingredientes del producto.",
+        "text": "ENVÍANOS LOS INGREDIENTES DEL PRODUCTO",
         "question": "¿Estas seguro de enviar esta foto?",
         "upload": "Sube una Foto"
     },
     "result": {
         "button": "Listo",
         "text": "Hemos encontrado...",
-        "ingredient": "Ingredientes",
+        "ingredient": "Alerta de Ingredientes",
         "score": "de confianza de que reconocimos este ingrediente",
-        "not-text": "No hemos encontrado ingredientes potencialmente de riesgo.",
-        "not-info": "Para darte la seguridad de que este producto no contiene ningún ingrediente peligroso, por favor envíanos más información.",
+        "not-text": "No hemos encontrado ingredientes de riesgo.",
+        "not-info": "Para mayor seguridad envíanos un mensaje a ",
+        "not-info-2": " y lo analizaremos para vos y tu fiel amigo/a.",
         "name": "Nombre",
         "last-name": "Apellido",
         "mail": "Mail",
@@ -84,7 +85,7 @@
         "linkFeedback": "https://479umigyc0j.typeform.com/to/BixmEu7g"
     },
     "check" : {
-        "title": "Como te sentirias si no pudieras usar más la app de GoddVibes?",
+        "title": "Como te sentirias si no pudieras usar más la app de Bruno?",
         "answer1": "Muy desepcionado",
         "answer2": "Desepcionado",
         "answer3": "Nada desepcionado",
